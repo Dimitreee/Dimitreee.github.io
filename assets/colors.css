@@ -1,0 +1,5 @@
+html {
+    --text__white: #fff;
+    --background__black: #0e1111;
+    --soft__black: rgba(65, 74, 76, 0.1);
+}

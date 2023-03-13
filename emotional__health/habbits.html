@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emotional Health</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/colors.css" />
+  <link rel="stylesheet" href="../assets/index.css" />
+</head>
+<body>
+<nav>
+  <div class="container flex">
+    <div class="row flex space__between">
+      <div class="items__container">
+        <a href="../index.html">
+          LSM
+        </a>
+      </div>
+      <div class="items__container">
+        <a href="/report.html">Report.html</a>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="header__wrapper">
+  <div class="container flex mobile__column">
+    <h1>Emotional Health</h1>
+  </div>
+</div>
+<section class="categories__wrapper">
+  <div class="container flex align__start column">
+    <ul class="chips categories__chips">
+      <li><a href="/emotional__health/index.html">Emotional Health</a></li>
+      <li><a href="/productivity/index.html">Productivity</a></li>
+      <!--      <li><a href="/communication/index.html">Communication</a></li>-->
+      <!--      <li><a href="/skills/index.html">Skills</a></li>-->
+      <!--      <li><a href="/sleep/index.html">Sleep</a></li>-->
+    </ul>
+  </div>
+</section>
+<section>
+  <div class="container flex align__center column gap" id="snippets__container">
+    <img id="poster" />
+  </div>
+</section>
+<div class="container">
+  <h2 id="title"></h2>
+</div>
+<section>
+  <div class="container" id="article__content"></div>
+</section>
+<footer>
+  <div class="container flex">
+    <div class="row flex space__between">
+      <div class="logo__container">
+      </div>
+      <div class="items__container">
+        <a href="https://github.com/Dimitreee" target="_blank">Dimitreee</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="../assets/index.js"></script>
+<script src="../assets/loadArticles.js"></script>
+<script>
+  loadArticle('../articles/emotional__health/habbits.json');
+</script>
+</body>
+</html>
+
